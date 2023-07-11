@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 style="text-align: center; font-size: 30px;">Student Enrollment Form</h1>
+    </div>
+    <div id="main">
+        <div class="h-tag">
+            <h2 style="text-align: center;">Student
+                Registration</h2>
+        </div>
+        <div class="login">
+            <form action="" id="userForm">
+                <table cellspacing="2" align="center" cellpadding="8" border="0">
+                    <tr>
+                        <td align="right">Enter Name :</td>
+                        <td><input type="text" placeholder="Enter name here" id="t1" class="tb" required></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Enter your Enrollment Name :</td>
+                        <td><input type="text" placeholder="Enter your enrollment here" id="t2" class="tb" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Enter Date of Birth :</td>
+                        <td><input type="text" placeholder="dd/mm/yyyy" id="t3" class="tb" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Enter Email ID :</td>
+                        <td><input type="text" placeholder="Enter Email ID here" id="t5" class="tb" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Enter Mobile Number :</td>
+                        <td><input type="text" placeholder="Enter Mobile Number here" id="t6" class="tb" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Enter Password :</td>
+                        <td><input type="password" placeholder="Enter Password here" id="t7" class="tb" required></td>
+                    </tr>
+                    <tr >
+                        <td align="right">Enter Confirm Password :</td>
+                        <td><input type="password" placeholder="Enter Password here" id="t8" class="tb" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit" class="btn">Enroll Student</button> &nbsp; &nbsp; &nbsp;
+                            <button type="reset" class="btn">Reset Form</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+</div>
+    <div id="enrolled-students">
+        <div class="enroll-heading">
+            <h2>Enrolled Students</h2>
+        </div><span id="span">*Fill the form to Enroll the Students.</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
